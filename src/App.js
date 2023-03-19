@@ -1,11 +1,17 @@
 import './App.css';
-import { BrowserRouter, Routes, Router } from 'react-router-dom';
-import Bootstrap from './components/reactbootstrap'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Reactbootstrap from './components/reactbootstrap';
+import Header from './components/header'
+import Mytable from './components/mytable'
 
 function App() {
   return (
    <BrowserRouter>
-   <Bootstrap/>
+   <Header/>
+   <Routes>
+    <Route path='/reactbootstrap' element={<Reactbootstrap/>}/>
+    <Route path='/mytable' element={<Mytable/>}/>
+   </Routes>
    </BrowserRouter>
   );
 }
