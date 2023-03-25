@@ -12,7 +12,7 @@ function Reactbootstrap() {
   return (
     <div className="">
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="https://chat.openai.com/chat">
+        <Navbar.Brand href="http://localhost:3000/myform">
           My React App
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

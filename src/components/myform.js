@@ -4,7 +4,7 @@ import React from 'react';
 export default ()=> {
   return (
     <div  className='' >
-    <Form  style={{width:'700px', margin:'auto'}} >
+    <Form  style={{width:'500px', margin:'auto'}} >
     <h3>Please login using your credentials</h3>
       <Form.Group className='form-control'>
         <Form.Label   >Email address</Form.Label>

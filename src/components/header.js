@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom'
 
 export default function Header(){
    
-    const mainMenu = ['Reactbootstrap','MyForm']
+    const mainMenu = ['Reactbootstrap','MyForm', 'Tmaterialtable']
 
     return(
         <div>
